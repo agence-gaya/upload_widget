@@ -1,0 +1,23 @@
+form .upload-progress-container {
+	display: none;
+}
+form .upload-progress {
+	height: 100%;
+	width: 30%;
+}
+form .upload-result-container {
+	display: none;
+}
+form .upload-result-container {
+	position: relative;
+}
+form .upload-reset {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 26px;
+	height: 26px;
+	background-image: url('../Icons/cross.svg');
+	cursor: pointer;
+}

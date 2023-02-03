@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  GAYA\UploadWidget\:
+    resource: '../Classes/*'
+
+  GAYA\UploadWidget\Service\:
+    resource: '../Classes/Service/*'
+    public: true

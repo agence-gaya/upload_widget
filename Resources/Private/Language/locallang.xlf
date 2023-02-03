@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file t3:id="1663332442" source-language="en" datatype="plaintext">
+		<header/>
+		<body>
+			<trans-unit id="remove-file">
+				<source>Supprimer le fichier</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604666">
+				<source>La taille du fichier dépasse la limite autorisée.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604667">
+				<source>La taille du fichier dépasse la limite autorisée.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604668">
+				<source>La taille du fichier dépasse la limite autorisée.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604669">
+				<source>Le fichier a été reçu partiellement, veuillez ré-uploader un nouveau fichier.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604670">
+				<source>Aucun fichier n'a été reçu.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604671">
+				<source>Une erreur est survenue lors de l'upload. Veuillez nous contacter en indiquand le code d'erreur 1663604671.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604672">
+				<source>Une erreur est survenue lors de l'upload. Veuillez nous contacter en indiquand le code d'erreur 1663604672.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604673">
+				<source>Extension de fichier non autorisée.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1663604474">
+				<source>Une erreur inconnue est survenue lors de l'upload du fichier.</source>
+			</trans-unit>
+
+			<trans-unit id="form.error.1663858994">
+				<source>Id de fichier invalide, veuillez ré-uploader un nouveau fichier.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1664199845">
+				<source>Extension de fichier non autorisée.</source>
+			</trans-unit>
+			<trans-unit id="form.error.1664230724">
+				<source>Une erreur est survenue lors de l'upload de fichier, essayez d'uploader un fichier plus petit.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

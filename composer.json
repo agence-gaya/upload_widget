@@ -1,0 +1,36 @@
+{
+  "name": "gaya/upload-widget",
+  "description": "Provide a widget to upload file with a progress bar.",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/agence-gaya/upload_widget",
+  "keywords": [
+    "TYPO3 CMS",
+    "Upload",
+    "Widget",
+    "File",
+    "FAL",
+    "Extbase"
+  ],
+  "version": "1.0.0",
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "typo3/cms-core": "^11.5",
+    "typo3/cms-extbase": "^11.5",
+    "typo3/cms-fluid": "^11.5"
+  },
+  "suggest": {
+    "gaya/upload-widget-example": "Example of using gaya/upload-widget extension."
+  },
+  "autoload": {
+    "psr-4": {
+      "GAYA\\UploadWidget\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "upload_widget"
+    }
+  }
+}

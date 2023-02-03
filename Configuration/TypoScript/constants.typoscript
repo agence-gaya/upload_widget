@@ -1,0 +1,16 @@
+# customcategory=plugin.tx_uploadwidget=Upload Widget
+plugin.tx_uploadwidget {
+	view {
+		# cat=plugin.tx_uploadwidget/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:upload_widget/Resources/Private/Templates/
+		# cat=plugin.tx_uploadwidget/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:upload_widget/Resources/Private/Partials/
+		# cat=plugin.tx_uploadwidget/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:upload_widget/Resources/Private/Layouts/
+	}
+
+	settings {
+		# cat=plugin.tx_uploadwidget/settings; type=int; label=TypeNum used to upload file
+		uploadTypeNum = 1665348095
+	}
+}

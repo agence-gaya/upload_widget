@@ -1,0 +1,35 @@
+plugin.tx_uploadwidget {
+	settings {
+		typeNum = {$plugin.tx_uploadwidget.settings.uploadTypeNum}
+	}
+}
+
+page_upload_template = PAGE
+page_upload_template {
+	typeNum = {$plugin.tx_uploadwidget.settings.uploadTypeNum}
+
+	10 < tt_content.list.20.uploadwidget_upload
+	10.settings {
+		allowedExtensions = pdf
+		maxFileSize = 52428800
+		uploadFolder = 1:/user_upload/
+		typeNum = {$plugin.tx_uploadwidget.settings.uploadTypeNum}
+	}
+
+	config {
+		disableAllHeaderCode = 1
+		xhtml_cleaning = none
+		admPanel = 0
+		debug = 0
+		disablePrefixComment = 1
+		metaCharset = utf-8
+		additionalHeaders.10.header = Content-Type:application/json;charset=utf-8
+		linkVars >
+		index_enable = 0
+	}
+}
+
+page {
+	includeJSFooter.upload_widget = EXT:upload_widget/Resources/Public/Frontend/Js/UploadWidget.js
+	includeCSS.upload_widget = EXT:upload_widget/Resources/Public/Frontend/Css/Styles.css
+}
